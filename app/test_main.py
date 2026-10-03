@@ -62,4 +62,3 @@ def test_not_accessible_when_url_invalid_and_no_connection(
     mock_has_internet_connection: MagicMock,
 ) -> None:
     mock_valid_google_url.return_value = False
-  
